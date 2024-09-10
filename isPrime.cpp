@@ -8,9 +8,9 @@ bool isPrime(int num) {
     return res;
 }
 int main() {
-    int num =2;
+    int num =10;
     if(isPrime(num))
-        cout << num << " is a prime number" << endl;
+        cout << num << "is a prime number" << endl;
     else 
         cout << num << " is not a prime number" << endl;
 }
