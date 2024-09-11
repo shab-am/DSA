@@ -34,9 +34,9 @@ int main() {
     cin >> s;
     
     if (solution.isValid(s)) {
-        cout << "The string is valid." << endl;
+        cout << s << " has balanced parenthesis" << endl;
     } else {
-        cout << "The string is not valid." << endl;
+        cout << s << " doesn't have balanced parenthesis" << endl;
     }
     
     return 0;
